@@ -1,0 +1,120 @@
+html {
+    font-size: 17px;
+}
+
+body {
+    background: linear-gradient(To bottom, #0a878c, #5F9EA0);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    margin: 0;
+    width: 100%;
+}
+
+main {
+      margin: 3.2em auto 0;
+    max-width: 960px;
+    min-width: 680px;
+    width: 80vw;
+}
+
+header {
+       margin: 0 0 5em 0;
+    padding: 0 8px;
+}
+
+#title{
+    color: rgb(0, 0, 0);
+    margin: 0 0 0.5em;
+    text-align: center;
+}
+#description {
+       color: rgb(58, 58, 58);
+    margin: 0 0 0.5em;
+    text-align: center;
+}
+
+#title {
+    font-weight: 500;
+}
+
+#description {
+    font-size: 1.25rem;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+#survey-form {
+    background-color: #fafeff;
+    border-radius: 10px;
+    padding: 2.25em;
+}
+
+fieldset {
+    border: 1px solid #000;
+    margin: 0 0 1.55em;
+    padding: 0 1em;
+}
+
+legend {
+    background-color: #3d6868;
+    font-size: 1.1rem;
+    color: rgb(208, 201, 201);
+    padding: 6px 10px;
+}
+
+label {
+    font-size: 1.1rem;
+    display: block;
+    margin: 0.6em 0;
+}
+
+input, select, textarea {
+    accent-color: #a0a9ad;
+    background-color: #d0e2e8;
+    border: none;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2.1em;
+}
+
+.form-group {
+    margin: 1.85em 0 1em;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    display: inline-block;
+    margin: -2px 5px 0 5px;
+    vertical-align: middle;
+    width: 1.1em;
+}
+
+.normal-text {
+    font-size: 1.1rem;
+    margin: 0 0 0.65em;
+}
+
+button {
+    border: none;
+    border-radius: 6px;
+    color: #726c6c;
+    display: block;
+    font-size: 1.1rem;
+    margin: 15px auto 0;
+    min-width: 200px;
+    height: 2.6rem;
+    width: 20vw;
+}
+
+button[type="submit"] {
+    background-color: #e9eef0;
+}
+
+button[type="reset"] {
+    background-color: #e9eef0;
+}
+
